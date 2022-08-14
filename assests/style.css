@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #0079af, #d00124, #00712b);
+}
+
+#password {
+  padding: 6rem 0rem;
+}
+
+.pass {
+  text-align: center;
+  background-color: #e2e2e2;
+  box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 360px;
+  margin: auto;
+  color: black;
+  border-radius: 5px;
+}
+.pass h1 {
+  font-size: 24px;
+}
+.pass .result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 5px;
+  margin: 20px 0px;
+  background-color: white;
+}
+.pass .result span {
+  padding: 0px 10px;
+  line-height: 50px;
+  width: 100%;
+}
+.pass .result button {
+  border: 0;
+  outline: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+  font-size: 16px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+.pass #clipboard i {
+  padding: 10px;
+  font-size: 22px;
+  border: 1px solid grey;
+}
+.pass .btn {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  transition: 0.5s;
+}
+.pass .btn:hover {
+  background-color: chocolate;
+  color: white;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.9);
+}/*# sourceMappingURL=style.css.map */
